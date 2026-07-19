@@ -58,7 +58,7 @@ Copy `.env.example` to `.env` and fill in your keys:
 
 ```
 OPENAI_API_KEY=...   # platform.openai.com
-GOOGLE_API_KEY=...   # aistudio.google.com (free)
+GEMINI_API_KEY=...   # aistudio.google.com (free)
 GROQ_API_KEY=...     # console.groq.com (free)
 ```
 

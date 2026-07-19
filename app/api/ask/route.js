@@ -4,12 +4,6 @@ import { synthesize } from "@/lib/synthesizer";
 import { isRateLimited } from "@/lib/ratelimit";
 
 export async function POST(request) {
-  console.log(
-    "env check — GOOGLE_API_KEY present:",
-    !!process.env.GOOGLE_API_KEY,
-    "length:",
-    process.env.GOOGLE_API_KEY?.length ?? 0,
-  );
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0] ?? "unknown";
   if (isRateLimited(ip)) {
     return NextResponse.json(

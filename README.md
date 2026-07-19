@@ -21,7 +21,7 @@ UI-based web app, built with Next.js (App Router) and Tailwind CSS. There is no 
 | Role | Model | Provider |
 |------|-------|----------|
 | Answer 1 | GPT-4o-mini | OpenAI |
-| Answer 2 | Gemini Flash (latest) | Google |
+| Answer 2 | Gemini Flash Lite (latest) | Google |
 | Answer 3 | Llama 3.3 70B | Meta, hosted on Groq |
 | Judge / synthesizer | Llama 3.3 70B | Meta, hosted on Groq |
 

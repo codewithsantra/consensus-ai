@@ -190,9 +190,18 @@ export default function Home() {
                       {data.results[activeTab].answer}
                     </ReactMarkdown>
                   ) : (
-                    <p className="text-red-400">
-                      {data.results[activeTab]?.error}
-                    </p>
+                    <div className="rounded-lg border border-red-500/20 bg-red-500/5 p-4">
+                      <p className="font-medium text-red-300">
+                        This model didn&apos;t answer
+                      </p>
+                      <p className="mt-1 text-neutral-400">
+                        {data.results[activeTab]?.error}
+                      </p>
+                      <p className="mt-2 text-xs text-neutral-500">
+                        The final answer above was synthesized from the models
+                        that did respond.
+                      </p>
+                    </div>
                   )}
                 </div>
               </div>

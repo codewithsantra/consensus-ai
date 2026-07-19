@@ -2,7 +2,7 @@
 
 Ask one question, get answers from three different AI models at the same time, and let a judge model combine the strongest parts of each into a single refined answer.
 
-**Live demo:** _add your Vercel link here_
+**Live demo:** https://consensus-ai.netlify.app
 
 ## What kind of app is this?
 
